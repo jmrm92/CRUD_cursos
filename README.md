@@ -20,7 +20,7 @@ Este proyecto es una API REST que realiza un CRUD (Crear, Leer, Actualizar, Elim
 ## Endpoints
 
 - `GET /`: Obtiene todos los cursos.
-- `GET /cursos/{codigo}`: Obtiene un curso por su codigo.
+- `GET /{codigo}`: Obtiene un curso por su codigo.
 - `POST /`: Crea un nuevo curso.
 - `PUT /{codigo}/{duracion}`: Actualiza un curso existente.
 - `DELETE /{codigo}`: Elimina un curso existente.
